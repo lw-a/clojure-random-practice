@@ -4,7 +4,7 @@
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (println "Random practiec!"))
+  (println "Random practice!"))
 
 (defn add-100
   [num]
@@ -20,3 +20,9 @@
 (def dec3 (dec-maker 3))
 
 (println (dec3 7))
+
+(defn mapset
+  [inc vector]
+  (set vector))
+
+(println (mapset inc [1 1 2 2]))
